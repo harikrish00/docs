@@ -1,4 +1,18 @@
 ## Port forwarding 80 to 8080 on Mac OSx Yosemite.
+Purpose:
+Why do you want to forward 80 to 8080?
+Typical use case is, when you do a local web development you want to test your changes progressively. And you would do this a million times a day by launching the url on the browser like this http://localhost:8080
+Two things, 1. you have to enter the port everytime and 2. it looks ugly. When you launch any url in the browser without a port at the end, browser assumes port 80 by default. 
+
+- For example
+```www.google.com``` is translated as ```www.google.com:80```
+
+So start your local application in port 8080 if it doesnt do by default, for example all rails projects start your app on default port 3000. In that case do the following
+
+``` rails s -p 8080 ```
+
+follow along my document here, and once you  have successfully created the script and did the port forwarding you can access your app without any port now.
+
 
 Create a bin directory under your home folder, step # 1,2,3 is necessary if you want to access and run the script from anywhere you want
 
