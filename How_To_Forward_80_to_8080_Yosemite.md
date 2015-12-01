@@ -19,7 +19,7 @@ rdr pass inet proto tcp from any to any port 80 -> 127.0.0.1 port 8080
 - presee ESC + :wq + Hit Enter
 - chmod +x fwd80.sh
 - vim ~/.bash_profile
-- 
+
 add the below line on the top of the file, DONT FORGET TO REPLACE YOUR USER ID
 
 ```
