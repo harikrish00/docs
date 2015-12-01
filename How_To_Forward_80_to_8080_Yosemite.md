@@ -14,7 +14,7 @@ So start your local application in port 8080 if it doesnt do by default, for exa
 follow along my document here, and once you  have successfully created the script and did the port forwarding you can access your app without any port now.
 
 
-Create a bin directory under your home folder, step # 1,2,3 is necessary if you want to access and run the script from anywhere you want
+Create a bin directory under your home folder, this will let you run the script globally
 
 - cd ~
 - mkdir bin
