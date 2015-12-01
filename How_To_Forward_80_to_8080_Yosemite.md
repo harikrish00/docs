@@ -43,6 +43,7 @@ export PATH=/Users/<your user id>/bin:$PATH
 
 - source ~/.bash_profile
 - quit the terminal and relaunch it
+
 Run the below command to do make it effective
 
 - fwd80.sh
